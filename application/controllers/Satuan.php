@@ -13,7 +13,7 @@ class Satuan extends CI_Controller
         redirect('auth');
       }
       
-      if($this->session->userdata['username']  != 'admin') {
+      if($this->session->userdata['level']  != 'admin') {
         redirect('dashboard');
       }
       $this->load->model('MSatuan');

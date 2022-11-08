@@ -97,7 +97,7 @@
 				<div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
 						<a class="collapse-item" href="<?php echo base_url('User') ?>">Manajemen User</a>
-						<a class="collapse-item" href="cards.html">Ubah Password</a>
+						<!-- <a class="collapse-item" href="cards.html">Ubah Password</a> -->
 					</div>
 				</div>
 			</li>

@@ -12,7 +12,7 @@ class Transaksi extends CI_Controller
         $this->session->set_flashdata('Pesan', '<div class="alert alert-danger alert-dismissible fade show" role="alert"><small> Anda Belum Login! (Silahkan Login untuk mengakses halaman yang akan dituju!)</small> <button type="button" class="close" data-dismiss="alert" aria-label="Close" <span aria-hidden="true">&times;</span> </button> </div>');
         redirect('auth');
       }
-      if($this->session->userdata['username']  != 'admin') {
+      if($this->session->userdata['level']  != 'admin') {
         redirect('dashboard');
       }
 
